@@ -31,12 +31,12 @@ namespace CardGames
 			if (myGame.IsStarted) {
 				if (SwinGame.KeyTyped (KeyCode.vk_LSHIFT)) {
 					myGame.PlayerHit (0);
-					SwinGame.LoadSoundEffectNamed ("LSlap", "left_slap.wav");
-					SwinGame.PlaySoundEffect ("LSlap");
+					SwinGame.LoadSoundEffectNamed ("Slap", "slap.wav");
+					SwinGame.PlaySoundEffect ("Slap");
 				}else if (SwinGame.KeyTyped (KeyCode.vk_RSHIFT)) {
 					myGame.PlayerHit (1);
-					SwinGame.LoadSoundEffectNamed ("RSlap", "right_slap.wav");
-					SwinGame.PlaySoundEffect ("RSlap");
+					SwinGame.LoadSoundEffectNamed ("Slap", "slap.wav");
+					SwinGame.PlaySoundEffect ("Slap");
 				}
 			}
 		}
